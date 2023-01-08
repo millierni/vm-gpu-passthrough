@@ -1,4 +1,4 @@
-# Virtual Machine - GPU passthrough
+# Virtual Machine - GPU Passthrough
 ## VIRTUAL MACHINE - GPU PASSTHROUGH [Same Cards/pci-ids]
 
 - Create `vfio-pci-override.sh`
