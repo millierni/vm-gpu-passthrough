@@ -6,7 +6,7 @@
   sudo nano /usr/local/bin/vfio-pci-override.sh
   ```
 - Add this into `vfio-pci-override.sh`
-  - `lspci -vnn` to find the GPU PCI buses and modify the DEVS array
+  - `lspci -v` to find the GPU PCI buses and modify the DEVS array
   ```
   {
 
@@ -63,5 +63,5 @@
   ```
 - Verify that the “Kernel driver in use” is vfio-pci
   ```
-  lspci -vnn
+  lspci -k
   ```
